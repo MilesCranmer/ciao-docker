@@ -5,6 +5,8 @@ FROM ubuntu:14.04
 
 MAINTAINER ldouchy
 
+ARG DEBIAN_FRONTEND=noninteractive
+
 # Prerequisite packages installation & clean
 RUN apt-get update \
  && apt-get install -y \
@@ -21,7 +23,7 @@ USER caldbmgr
 
 workdir /opt/CALDB
 
-ENV CALDB_VERSION=4.7.0 \
+ENV CALDB_VERSION=4.7.3 \
     ACIS_VERSION=4.6.9 \
     HRC_VERSION=4.7.0
 
