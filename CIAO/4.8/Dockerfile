@@ -1,7 +1,7 @@
 # Dockerfile for CIAO recommended install 
 # http://cxc.harvard.edu/ciao/
 
-FROM ldouchy/caldb:4.7
+FROM local/caldb
 
 MAINTAINER ldouchy
 
