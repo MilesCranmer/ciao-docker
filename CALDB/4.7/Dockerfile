@@ -1,7 +1,7 @@
 # Dockerfile for CALDB
 # http://cxc.cfa.harvard.edu/ciao/download/caldb.html
 
-FROM ubuntu:15.10
+FROM ubuntu:14.04
 
 MAINTAINER ldouchy
 
